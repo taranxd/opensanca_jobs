@@ -1,5 +1,5 @@
 # build stage
-FROM ruby:2.5.0-alpine AS builder
+FROM ruby:2.5.0-alpine
 
 ARG build_without
 ARG rails_env="development"
