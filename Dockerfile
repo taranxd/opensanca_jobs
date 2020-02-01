@@ -1,4 +1,4 @@
-# build stage
+# build stage as in small
 FROM ruby:2.5.0-alpine as builder
 
 ARG build_without
